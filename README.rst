@@ -68,13 +68,7 @@ Documentation
 In the code
 ^^^^^^^^^^^
 
-We're always striving to improve documentation. Please include inline API documentation (e.g. `Haddock <https://haskell-haddock.readthedocs.io/en/latest/index.html>`__) for any added code, and update the documentation for any code you modify. Things that should generally be documented:
-
-- Exported names (e.g. functions, type classes, data types, record fields, constructors, function arguments when they are anything but completely obvious)
-- Subtle or complex algorithms
-- Subtle/non-obvious design choices
-- Things that could be improved later (use, ``FIXME`` or ``TODO`` markers in comments where appropriate)
-- Things that are intentionally *not* exported and why that is the case
+We're always striving to improve documentation. Please refer to `Documentation Guidelines <DocumentationGuidelines.rst>`__ for our guidelines. However, we highly value your contribution even if you don't have time to ensure your change meets our standards perfectly. Reviewers will do their best to help!
 
 In the ``ChangeLog``
 ^^^^^^^^^^^^^^^^^^^^
