@@ -50,10 +50,7 @@ Wherever possible, pull requests should add a single feature or fix a single bug
 Code Quality
 ~~~~~~~~~~~~
 
-Warnings
-^^^^^^^^
-
-Your pull request should add no new warnings to the project. It should also generally not disable any warnings.
+Please refer to `Coding Guidelines <CodingGuidelines.rst>`__ for our guidelines. However, we highly value your contribution even if you don't have time to ensure your change meets our standards perfectly. Reviewers will do their best to help!
 
 Build and Test
 ^^^^^^^^^^^^^^
