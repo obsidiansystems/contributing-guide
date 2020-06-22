@@ -103,3 +103,8 @@ Maintainership
 ~~~~~~~~~~~~~~
 
 All open source projects maintained by Obsidian Systems must list their author/maintainer as "Obsidian Systems LLC" and use the contact email of "maintainer@obsidian.systems".
+
+Backlinks
+~~~~~~~~~
+
+When at all possible, try to preserve non-permalink `backlink <https://en.wikipedia.org/wiki/Backlink>`__\ s to documentation. I.e. if you move documentation to a new location try to put a symlink or placeholder document in the old location so that links to it continue to exist, even for links not pointing to a specific commit (permalink). Ideally, fragments to headings in the document would continue to work as well, but that is hard to maintain so it is not a strict requirement.
