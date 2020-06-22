@@ -3,10 +3,7 @@ Documentation Guidelines
 
 This document outlines guidelines for how to generate and maintain documentation for open source projects maintained by `Obsidian Systems <https://obsidian.systems>`__.
 
-Table of Contents
-~~~~~~~~~~~~~~~~~
-
-.. contents::
+.. contents:: Table of Contents
 
 Repository Documentation
 ~~~~~~~~~~~~~~~~~~~~~~~~

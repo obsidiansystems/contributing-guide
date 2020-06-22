@@ -4,10 +4,7 @@ Obsidian Systems Coding Guidelines
 
 This document outlines guidelines for how to write and maintain code for open source projects maintained by `Obsidian Systems <https://obsidian.systems>`__.
 
-Table of Contents
------------------
-
-.. contents::
+.. contents:: Table of Contents
 
 Principles
 ----------
