@@ -80,22 +80,22 @@ Style
     - Indentation should use two-space tabs.
     - Prefer to indent things by a fixed amount rather than aligning with the previous line.
 
-       - When a ``do`` block spans multiple lines there should be a linefeed between ``do`` and the first statement of the ``do`` block.
+      - When a ``do`` block spans multiple lines there should be a linefeed between ``do`` and the first statement of the ``do`` block.
 
-         - Wrong:
+        - Wrong:
 
-           .. code:: haskell
+          .. code:: haskell
 
-              func = do action1
-                        action2
+             func = do action1
+                       action2
 
-         - Right:
+        - Right:
 
-           .. code:: haskell
+          .. code:: haskell
 
-              func = do
-                action1
-                action2
+             func = do
+               action1
+               action2
 
   - Line feeds.
 
@@ -103,7 +103,7 @@ Style
     - Files should end with exactly one linefeed after the last non-whitespace line.
     - Double blank lines (i.e. ``"\n\n\n"``) should be avoided.
 
-       - People tend to do it differently, and it doesn't really convey any information. If someone wants to break out larger sections, a big header in a comment generally should be added instead.
+      - People tend to do it differently, and it doesn't really convey any information. If someone wants to break out larger sections, a big header in a comment generally should be added instead.
 
   - Alignment
 
@@ -130,16 +130,12 @@ Style
 
   - There should be a space before ``where`` in module export list.
 
-    - Operators should generally be separated from their arguments by whitespace.
-
-      - In an operator section, there should not be a space between the parenthesis and the operator.
-
 - Type signatures
 
   - Top-level definitions should have type signatures.
   - There should always be whitespace after the ``.`` in a ``forall`` clause, but never a space before, if it's all on one line.
 
-     - When breaking ``forall`` over lines, treat ``.`` as a ``->`` and align accordingly, with an extra space following.
+    - When breaking ``forall`` over lines, treat ``.`` as a ``->`` and align accordingly, with an extra space following.
 
   - Class contexts with a single constraint should never be parenthesized.
   - When building a long list, record, or tuple, the opening brace, the commas, and the closing brace should all be on separate lines, all in the same column as each other.
@@ -149,6 +145,8 @@ Style
   - Always use ``(<>)`` to append ``String``\ s, never ``(++)``. Using ``(++)`` for ``[a]`` where ``a`` is not known to be ``Char`` is fine.
   - ``(.)`` and ``($)`` should be used instead of parentheses, where applicable.
   - Prefer ``$`` over ``.`` when they are equivalent.
+  - Operators should generally be separated from their arguments by whitespace.
+  - In an operator section, there should not be a space between the parenthesis and the operator.
 
 - Function definitions
 
